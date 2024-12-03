@@ -514,7 +514,6 @@ function decorateSections(main) {
       [...section.children].forEach((e) => {
         if ((e.tagName === "DIV" && e.className) || !defaultContent) {
           const wrapper = document.createElement("div");
-          wrapper.dataset.isWrapper = "wrapper";
 
           wrappers.push(wrapper);
           defaultContent = e.tagName !== "DIV" || !e.className;
