@@ -2,6 +2,7 @@
   "mappings": [
     "/content/aem-boilerplate/:/",
     "/content/aem-boilerplate/redirects:/redirects.json",
+    "/content/aem-boilerplate/taxonomy:/taxonomy.json",
     "/content/aem-boilerplate/configuration:/.helix/config.json",
     "/content/aem-boilerplate/metadata:/metadata.json"
   ],
